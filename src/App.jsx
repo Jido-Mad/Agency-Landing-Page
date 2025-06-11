@@ -1,4 +1,4 @@
-import Attribution from "./components/Attribution.jsx";
+import Attribution from "./Components/Attribution.jsx";
 function App() {
   return (
     <>
