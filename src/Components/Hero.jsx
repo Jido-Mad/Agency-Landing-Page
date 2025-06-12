@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function Hero() {
   const [showMenu, setShowMenu] = useState(false);
-
+  const menuItems = ["About", "Services", "Projects", "Contact"];
   function toggleMenu() {
     setShowMenu(!showMenu);
   }
@@ -47,18 +47,12 @@ function Hero() {
       {showMenu && (
         <nav className="absolute top-20 right-8 bg-white py-8 px-24 rounded shadow-lg md:hidden z-10 text-center">
           <ul className="flex flex-col space-y-2 text-gray-500 text-sm barlow">
-            <li className="hover:bg-[hsl(51,100%,49%)] hover:text-black rounded-3xl px-8 py-4">
-              <a href="#about">About</a>
-            </li>
-            <li className="hover:bg-[hsl(51,100%,49%)] hover:text-black rounded-3xl px-8 py-4">
-              <a href="#services">Services</a>
-            </li>
-            <li className="hover:bg-[hsl(51,100%,49%)] hover:text-black rounded-3xl px-8 py-4">
-              <a href="#projects">Projects</a>
-            </li>
-            <li className=" inline-block w-30 hover:bg-[hsl(51,100%,49%)]  hover:text-black hover:font-bold rounded-3xl hover:uppercase px-8 py-4">
-              <a href="#contact">Contact</a>
-            </li>
+            {menuItems.map((item) => (
+              <li className="hover:bg-[hsl(51,100%,49%)] hover:text-black rounded-3xl px-8 py-4">
+                {" "}
+                <a href={`#${item}`}>{item}</a>{" "}
+              </li>
+            ))}
           </ul>
         </nav>
       )}
