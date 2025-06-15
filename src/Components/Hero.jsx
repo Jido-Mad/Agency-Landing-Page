@@ -58,14 +58,14 @@ function Hero() {
       )}
 
       {/* Hero Content */}
-      <div className="flex flex-col items-center justify-center text-center text-white mt-20 md:mt-40">
+      <div className="flex flex-col items-center justify-center text-center text-white mt-20 md:mt-20">
         <h1 className="uppercase text-3xl tracking-[0.3em] mt-8 leading-tight md:text-5xl md:tracking-[0.5em] fraunces">
           We are <span className="block md:inline">creatives</span>
         </h1>
         <img
           src="./icon-arrow-down.svg"
           alt="arrow-down"
-          className="w-8 h-28 mt-28 md:mt-12"
+          className="w-8 h-28 mt-28 md:mt-16"
         />
       </div>
     </div>
