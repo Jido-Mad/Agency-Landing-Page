@@ -12,7 +12,7 @@ function Hero() {
       <header className="flex justify-between items-center py-8 px-8">
         {/* Logo */}
         <div>
-          <img src="./logo.svg" alt="logo" className="w-32" />
+          <img src="./eiko.jpg" alt="logo" className="w-32" />
         </div>
 
         {/* Hamburger Icon */}
