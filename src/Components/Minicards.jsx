@@ -14,13 +14,15 @@ function Minicards() {
           <img
             src="./src/assets/images/mobile/image-gallery-orange.jpg"
             alt="Orange slice"
+            className="w-full h-auto"
           />
         </div>
 
         <div className="flex justify-center">
           <img
             src="./src/assets/images/mobile/image-gallery-cone.jpg"
-            alt="Ice cream cone"
+            alt="Ice-cream cone"
+            className="w-full h-auto"
           />
         </div>
 
@@ -28,6 +30,7 @@ function Minicards() {
           <img
             src="./src/assets/images/mobile/image-gallery-sugar-cubes.jpg"
             alt="Sugar cubes"
+            className="w-full h-auto"
           />
         </div>
       </div>
