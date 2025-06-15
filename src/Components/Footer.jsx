@@ -8,17 +8,26 @@ function Footer() {
         <div>
           <ul className="flex justify-center gap-16 p-12">
             <li>
-              <a className="text-[hsl(166,33%,34%)] barlow" href="#about">
+              <a
+                className="text-[hsl(166,33%,34%)] barlow hover:text-white"
+                href="#about"
+              >
                 About
               </a>
             </li>
             <li>
-              <a className="text-[hsl(166,33%,34%)] barlow " href="#services">
+              <a
+                className="text-[hsl(166,33%,34%)] barlow hover:text-white "
+                href="#services"
+              >
                 Services
               </a>
             </li>
             <li>
-              <a className="text-[hsl(166,33%,34%)] barlow" href="#projects">
+              <a
+                className="text-[hsl(166,33%,34%)] barlow hover:text-white"
+                href="#projects"
+              >
                 Projects
               </a>
             </li>
