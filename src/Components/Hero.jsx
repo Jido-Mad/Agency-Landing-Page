@@ -8,11 +8,11 @@ function Hero() {
   }
 
   return (
-    <div className="bg-[url('./image-header.jpg')] bg-cover bg-center h-screen w-full relative md:bg-[url('./src/assets/images/desktop/image-header.jpg')]">
+    <div className="bg-[url('./src/assets/images/mobile/image-header.jpg')] bg-cover bg-center h-screen w-full relative md:bg-[url('./src/assets/images/desktop/image-header.jpg')]">
       <header className="flex justify-between items-center py-8 px-8">
         {/* Logo */}
         <div>
-          <img src="./eiko.jpg" alt="logo" className="w-32" />
+          <img src="./logo.svg" alt="logo" className="w-32" />
         </div>
 
         {/* Hamburger Icon */}
