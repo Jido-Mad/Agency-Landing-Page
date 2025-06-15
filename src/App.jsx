@@ -10,8 +10,8 @@ function App() {
       <Hero />
       <Cards />
       <Testimonals />
-    <Minicards />
-    <Footer />
+      <Minicards />
+      <Footer />
       <Attribution />
     </>
   );
